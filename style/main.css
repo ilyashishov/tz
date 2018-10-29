@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #3A3E3F;
+}
+
+input{
+    border: 1px solid #DBDBDB;
+    padding: 20px 10px;
+    color: #A8A8A8;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,.2) inset; 
+    box-sizing: border-box;
+}
+
+button{
+    border-radius: 4px;
+    border: 1px solid #DBDBDB;
+    padding: 10px 20px;
+    background-color: #ECECEC;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: #E6E6E6;
+}
+
+
+a:active, a:focus { outline: none; }
+
+input, textarea {outline:none;}
+input:active, textarea:active {outline:none;}
+:focus {outline:none;}
+textarea {resize:none;}
+textarea {resize:vertical;}
+textarea {resize:horizontal;}
+
+
+.cont {
+    margin: 0px auto;
+    max-width: 1246px;
+    min-width: 1035px;
+}
+
+.left{
+    float: left;
+    width: 50%;
+}
+
+.right{
+    float: right;
+    width: 50%;
+}
+
+.inputWrapper{
+    width: 100%;
+    position: relative;
+    margin: 10px 0px;
+}
+
+.inputWrapper input{
+    width: 100%;
+}
+
+.inputWrapper button{
+      position: absolute;
+      top: 10px;
+      right: 10px;
+}
+
+body{
+    background: url(../img/bodyBackground.png)
+}
+
+header{
+    background-color: #353533;
+}
+
+header .top{
+    overflow: hidden;
+}
+
+.logo{
+    width: 30%;
+    height: 45px;
+    float: left;
+    background-color: #F26C4F;
+    text-align: right;
+    padding-right: 160px;
+    box-sizing: border-box;
+    color: #fff;
+    font-size: 24px;
+    line-height: 45px;
+    position: relative;
+}
+
+.logo span{
+    color: #ccc;
+    position: absolute;
+    top: -10px;
+}
+
+header .nav{
+    width: 70%;
+    float: right;
+}
+
+header menu{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+header menu li{
+    display: inline;
+    margin-right: 40px;
+}
+
+header menu a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header menu a:hover{
+    text-decoration: underline;
+}
+
+header .bottom{
+    height: 50px;
+    background: url('../img/headerBackground.png');
+}
+
+.container{
+    overflow: hidden;
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    max-width: 840px;
+    min-width: 640px;
+    margin: 0px 40px;
+}
+
+.bar{
+    background-color: #FEFEFE;
+    border: 1px solid #D7D7D7;
+    width: 325px;
+    box-sizing: border-box;
+    padding: 40px 35px;
+}
+
+.bar h5{
+    font-size: 14px;
+    color: #B9B9B9;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.bar p {
+    font-size: 13px;
+    font-style: italic;
+}
+
+.bar > p {
+    font-size: 13px;
+    font-style: italic;
+    color: #959595;
+}
+
+.bar ul{
+    list-style-position: inside;
+}
+
+.bar li p{
+    display: inline;
+}
+
+.bar li span{
+    display: block;
+    color: #AAAAAA;
+    font-size: 11px;
+    padding-top: 5px;
+}
+
+.bar .tags > *{
+    margin: 5px 5px;
+}
+
+.bar > *:not(:last-child), .bar li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.block{
+    width: 100%;
+}
+
+.block .preview{
+    border: 5px solid #fff;
+    display: flex;
+    position: relative;
+}
+
+.block .preview button{
+    width: 64px;
+    height: 53px;
+    position: absolute;
+    border: none;
+    background: url("../img/lukas.png");
+    left: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    opacity: .8;
+    transition: 200ms;
+    background-repeat: no-repeat;
+}
+.block .preview button:hover{
+    opacity: 1;
+}
+
+.block .preview button:active{
+    width: 63px;
+    height: 52px;
+}
+
+.block .preview button p{
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 10px;
+    position: absolute;
+    top: 9px;
+    right: 5px;
+}
+
+.block .preview img{
+    width: 100%;
+    height: 100%;
+}
+
+.block .article{
+    background-color: #fff;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding: 40px 35px;
+}
+
+.block .article *{
+    padding-bottom: 15px;
+}
+
+.block .title{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.block .date{
+    color: #B1B1B1;
+    font-size: 14px;
+    font-style: italic;
+}
+
+.block .subTitle{
+    color: #F26D51;
+    font-size: 21px;
+}
+
+.block .text{
+    color: #A1A1A1;
+    line-height: 35px;
+}
